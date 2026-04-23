@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    
+    <radialGradient id="bg" cx="50%" cy="45%" r="85%">
+      <stop offset="0%" stop-color="#fff6d8"></stop>
+      <stop offset="55%" stop-color="#ffc870"></stop>
+      <stop offset="100%" stop-color="#c87018"></stop>
+    </radialGradient>
+
+    
+    <linearGradient id="beer" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd050"></stop>
+      <stop offset="50%" stop-color="#e89018"></stop>
+      <stop offset="100%" stop-color="#7a4810"></stop>
+    </linearGradient>
+
+    
+    <linearGradient id="foam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"></stop>
+      <stop offset="60%" stop-color="#fff5dc"></stop>
+      <stop offset="100%" stop-color="#f0dfb0"></stop>
+    </linearGradient>
+
+    
+    <linearGradient id="glassShine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.7"></stop>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.15"></stop>
+    </linearGradient>
+
+    
+    <linearGradient id="bubble1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"></stop>
+      <stop offset="100%" stop-color="#e4c886"></stop>
+    </linearGradient>
+
+    
+    <linearGradient id="bubble2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcfaf0"></stop>
+      <stop offset="100%" stop-color="#c0a880"></stop>
+    </linearGradient>
+
+    
+    <linearGradient id="bubble3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9068"></stop>
+      <stop offset="100%" stop-color="#b03818"></stop>
+    </linearGradient>
+
+    
+    <clipPath id="glassInterior">
+      <path d="M 284 447&#xA;               L 592 447&#xA;               Q 622 447 622 477&#xA;               L 622 835&#xA;               Q 622 890 567 890&#xA;               L 309 890&#xA;               Q 254 890 254 835&#xA;               L 254 477&#xA;               Q 254 447 284 447&#xA;               Z"></path>
+    </clipPath>
+  </defs>
+
+  
+  <rect width="1024" height="1024" fill="url(#bg)"></rect>
+
+  
+
+  
+  <g clip-path="url(#glassInterior)">
+    
+    <rect x="240" y="555" width="400" height="360" fill="url(#beer)"></rect>
+
+    
+    <circle cx="315" cy="800" r="8" fill="#fff6b8" opacity="0.85"></circle>
+    <circle cx="330" cy="720" r="6" fill="#fff6b8" opacity="0.75"></circle>
+    <circle cx="308" cy="650" r="5" fill="#fff6b8" opacity="0.65"></circle>
+    <circle cx="295" cy="590" r="4" fill="#fff6b8" opacity="0.55"></circle>
+
+    <circle cx="478" cy="820" r="9" fill="#fff6b8" opacity="0.9"></circle>
+    <circle cx="490" cy="730" r="7" fill="#fff6b8" opacity="0.8"></circle>
+    <circle cx="465" cy="650" r="5" fill="#fff6b8" opacity="0.65"></circle>
+    <circle cx="485" cy="600" r="4" fill="#fff6b8" opacity="0.55"></circle>
+
+    <circle cx="565" cy="810" r="7" fill="#fff6b8" opacity="0.8"></circle>
+    <circle cx="575" cy="720" r="8" fill="#fff6b8" opacity="0.85"></circle>
+    <circle cx="555" cy="640" r="5" fill="#fff6b8" opacity="0.65"></circle>
+
+    <circle cx="395" cy="810" r="6" fill="#fff6b8" opacity="0.75"></circle>
+    <circle cx="410" cy="730" r="5" fill="#fff6b8" opacity="0.7"></circle>
+
+    
+    <rect x="290" y="465" width="32" height="410" fill="url(#glassShine)" rx="6"></rect>
+
+    
+    <path d="M 240 425&#xA;             L 240 565&#xA;             Q 260 578 285 562&#xA;             Q 310 580 340 560&#xA;             Q 370 580 400 560&#xA;             Q 430 580 460 560&#xA;             Q 490 580 520 560&#xA;             Q 550 580 580 560&#xA;             Q 605 578 625 562&#xA;             Q 640 555 640 425&#xA;             Z" fill="url(#foam)"></path>
+  </g>
+
+  
+  <path d="M 260 450&#xA;           Q 265 422 282 418&#xA;           Q 295 378 328 390&#xA;           Q 350 348 390 378&#xA;           Q 420 338 458 372&#xA;           Q 498 338 535 374&#xA;           Q 572 342 603 382&#xA;           Q 618 402 618 422&#xA;           Q 622 438 614 450&#xA;           Z" fill="url(#foam)" stroke="#d4be86" stroke-width="5" stroke-linejoin="round"></path>
+
+  
+  <circle cx="340" cy="400" r="16" fill="#ffffff"></circle>
+  <circle cx="392" cy="380" r="12" fill="#ffffff"></circle>
+  <circle cx="452" cy="395" r="14" fill="#ffffff"></circle>
+  <circle cx="512" cy="380" r="11" fill="#ffffff"></circle>
+  <circle cx="568" cy="400" r="13" fill="#ffffff"></circle>
+  <circle cx="595" cy="418" r="7" fill="#ffffff" opacity="0.9"></circle>
+  <circle cx="310" cy="418" r="8" fill="#ffffff" opacity="0.9"></circle>
+
+  
+  <path d="M 284 447&#xA;           L 592 447&#xA;           Q 622 447 622 477&#xA;           L 622 835&#xA;           Q 622 890 567 890&#xA;           L 309 890&#xA;           Q 254 890 254 835&#xA;           L 254 477&#xA;           Q 254 447 284 447&#xA;           Z" fill="none" stroke="#2a1510" stroke-width="14" stroke-linejoin="round"></path>
+
+  
+
+  
+  <path d="M 622 548&#xA;           Q 795 548 795 680&#xA;           Q 795 812 622 812&#xA;           L 622 752&#xA;           Q 732 752 732 680&#xA;           Q 732 608 622 608&#xA;           Z" fill="#ffdc80" opacity="0.25"></path>
+
+  
+  <path d="M 622 548&#xA;           Q 795 548 795 680&#xA;           Q 795 812 622 812&#xA;           L 622 752&#xA;           Q 732 752 732 680&#xA;           Q 732 608 622 608&#xA;           Z" fill="none" stroke="#2a1510" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"></path>
+
+  
+  <path d="M 635 575 Q 745 580 768 635 L 760 648 Q 738 595 635 595 Z" fill="#ffffff" opacity="0.6"></path>
+
+  
+
+  
+  <path d="M 605 105&#xA;           Q 605 60 650 60&#xA;           L 885 60&#xA;           Q 940 60 940 105&#xA;           L 940 250&#xA;           Q 940 295 885 295&#xA;           L 770 295&#xA;           L 720 360&#xA;           L 740 295&#xA;           L 650 295&#xA;           Q 605 295 605 250&#xA;           Z" fill="url(#bubble1)" stroke="#3a2a10" stroke-width="7" stroke-linejoin="round"></path>
+  <ellipse cx="680" cy="105" rx="42" ry="14" fill="#ffffff" opacity="0.85"></ellipse>
+  <circle cx="698" cy="178" r="24" fill="#2a1510"></circle>
+  <circle cx="770" cy="178" r="24" fill="#2a1510"></circle>
+  <circle cx="842" cy="178" r="24" fill="#2a1510"></circle>
+
+  
+  <path d="M 90 175&#xA;           Q 90 135 130 135&#xA;           L 330 135&#xA;           Q 370 135 370 175&#xA;           L 370 290&#xA;           Q 370 330 330 330&#xA;           L 250 330&#xA;           L 225 390&#xA;           L 238 330&#xA;           L 130 330&#xA;           Q 90 330 90 290&#xA;           Z" fill="url(#bubble2)" stroke="#3a2810" stroke-width="6" stroke-linejoin="round"></path>
+  <ellipse cx="155" cy="170" rx="32" ry="10" fill="#ffffff" opacity="0.85"></ellipse>
+  
+  <rect x="125" y="195" width="205" height="11" rx="5.5" fill="#2a1510"></rect>
+  <rect x="125" y="232" width="175" height="11" rx="5.5" fill="#2a1510"></rect>
+  <rect x="125" y="269" width="220" height="11" rx="5.5" fill="#2a1510"></rect>
+
+  
+  <path d="M 415 45&#xA;           Q 415 20 440 20&#xA;           L 560 20&#xA;           Q 585 20 585 45&#xA;           L 585 118&#xA;           Q 585 143 560 143&#xA;           L 515 143&#xA;           L 495 180&#xA;           L 498 143&#xA;           L 440 143&#xA;           Q 415 143 415 118&#xA;           Z" fill="url(#bubble3)" stroke="#4a1510" stroke-width="5" stroke-linejoin="round"></path>
+  <ellipse cx="460" cy="45" rx="22" ry="6" fill="#ffffff" opacity="0.6"></ellipse>
+  
+  <path d="M 440 85 L 482 115 L 555 55" fill="none" stroke="#fff2d0" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
