@@ -566,6 +566,18 @@ img { max-width: 100%; display: block; }
 }
 
 /* Core value #2 — exclusion illustration */
+.lp-exclude-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+@media (max-width: 720px) {
+  .lp-exclude-wrap { grid-template-columns: 1fr; gap: 32px; }
+}
+
 .lp-exclude {
   display: flex;
   flex-direction: column;
